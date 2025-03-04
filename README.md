@@ -1,54 +1,129 @@
-# React + TypeScript + Vite
+# Untitled
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Quizzmania
 
-Currently, two official plugins are available:
+A multiplayer web based quiz website where you can compete on your own or with your friends by answering questions and getting points/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Live Demo:** [Your App Link](https://your-app.com/) *(if available)*
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Table of Contents
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- [Problem Statement](https://www.notion.so/1acac7bab6af8057bedbc79dac2e8c18?pvs=21)
+- [Solution](https://www.notion.so/1acac7bab6af8057bedbc79dac2e8c18?pvs=21)
+- [Tech Stack](https://www.notion.so/1acac7bab6af8057bedbc79dac2e8c18?pvs=21)
+- [Setup & Installation](https://www.notion.so/1acac7bab6af8057bedbc79dac2e8c18?pvs=21)
+- [Features](https://www.notion.so/1acac7bab6af8057bedbc79dac2e8c18?pvs=21)
+- [Challenges & Learnings](https://www.notion.so/1acac7bab6af8057bedbc79dac2e8c18?pvs=21)
+- [Future Improvements](https://www.notion.so/1acac7bab6af8057bedbc79dac2e8c18?pvs=21)
+- [Contributors](https://www.notion.so/1acac7bab6af8057bedbc79dac2e8c18?pvs=21)
+
+---
+
+## Problem Statement
+
+In a world where face-to-face interactions have been replaced by screen-to-screen communication, staying connected with friends, family, and colleagues has become more challenging. Traditional quiz games often lack a truly interactive, real-time multiplayer experience, making learning and competition feel isolated rather than engaging.
+
+Additionally, students and learners struggle with motivation, often settling for mediocrity rather than pushing themselves to excel. There is a need for a fun yet educational platform that not only encourages friendly competition but also reinforces knowledge in a way that feels engaging and rewarding.
+
+---
+
+## Solution
+
+our solution is a fun, lightweight trivia-based party game that allows players to compete in real time across a variety of knowledge categories, including custom educational topics. Whether you’re a student cramming for an exam, a bootcamp alumnus reinforcing technical skills, or a group of friends looking for a challenge, our app provides an exciting way to test knowledge, track scores, and motivate continuous learning through a shared leaderboard.
+
+With single-player and multiplayer modes, users can either challenge themselves individually or compete with friends, making learning engaging, competitive, and social. By combining education with entertainment, this app brings people together—proving once and for all who has what it takes to win while fostering a culture of continuous learning.
+
+---
+
+## Tech Stack
+
+ **Frontend:** React, TypeScript 
+
+ **Backend:** Node.js, Express, Socket.io
+
+**Authentication:** OAuth 
+
+**Testing:** Vite / Jest
+
+**Deployment:** Render
+
+---
+
+## Setup & Installation
+
+1️⃣ Clone this repo:
+
+```bash
+
+git clone https://github.com/SchoolOfCode/final-project-airon-chefs.git
+cd project-name
+
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+2️⃣ Install dependencies:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+```bash
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+npm install
+
 ```
+
+3️⃣ Start the development server:
+
+```bash
+
+npm run dev
+
+```
+
+*(Add backend setup instructions if needed!)*
+
+---
+
+## Features
+
+- **OAuth-powered lobby login** for seamless access
+- **Single-player mode** to challenge your trivia skills
+- **Multiplayer mode** to compete against friends in real-time
+- **Leaderboard** to track and compare scores with friends
+- **Trivia API integration** for dynamic questions and answers
+
+---
+
+## Challenges & Learnings
+
+- What did you and your team struggle with?
+- What skills did you improve?
+
+Example:
+
+> 
+> 
+
+---
+
+## Future Improvements
+
+- What features would you add with more time?
+
+Example:
+
+- 
+
+---
+
+## 👥 Contributors
+
+| Name | Role | GitHub |
+| --- | --- | --- |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+
+---
+
+## Why This Matters
+
+- **What impact does your project have in the real world?**
